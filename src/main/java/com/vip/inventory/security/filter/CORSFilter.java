@@ -21,7 +21,7 @@ public class CORSFilter extends GenericFilterBean{
 		 response.addHeader("Access-Control-Allow-Origin", "http://localhost:3000");
 	        response.addHeader("Access-Control-Allow-Methods", "POST, PUT, GET, OPTIONS, DELETE");
 	        response.addHeader("Access-Control-Max-Age", "3600");
-	        response.addHeader("Access-Control-Allow-Headers", "X-Requested-With, X-Auth-Token, authorization");
+	        response.addHeader("Access-Control-Allow-Headers", "X-Requested-With, X-Auth-Token");
 	        response.addHeader("Access-Control-Allow-Credentials", "true");
 	        response.addHeader("Access-Control-Expose-Headers", "Authorization");
 		 
